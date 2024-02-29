@@ -14,15 +14,18 @@ While annotating images of skin lesions, we encountered several obstacles and ma
 
 **Image clarity** 
 
-Images within the dataset have varying levels of clarity, which affects ease of annotation. Some images show clear and distinguishable lesions, facilitating a simple annotation process. These images provide valuable information about lesion characteristics and facilitate accurate diagnosis. However, a subset of images presents challenges due to subtle and scattered features. Although visible, these features are often blurred and scattered in the surrounding skin, making accurate annotation more difficult. Additionally, some images lack clear lesion delineation, complicating the annotation process and potentially affecting the reliability of diagnostic results.
+Images within the dataset have a difference in quality, which makes the annotation harder. Some images are very clear, and the lesions are obvious, these images can easily and faster be annotated. While other images are unclear and faded due to color matching, in a way that the lesions fade into the skin because of the skin color, which makes the prosses of annotating more challenging and end with non-reliability results.
 
 **Inconsistency in metadata completion**
 
-Analysis of the metadata accompanying patient images revealed inconsistencies in data completion. Some patients do not meet all requirements, leading to information gaps. For example, questions regarding cigarette or alcohol use may remain unanswered in some cases, thereby limiting the completeness of the patient record. Additionally, important background information, such as parental history, may be omitted, resulting in incomplete data sets. These inconsistencies highlight the importance of thorough data collection protocols to ensure complete patient records and robust data set integrity.
+Looking at metadata made us realize missing information in some cases. We do not have a complete information this leads to information gaps. For exaple we are missing some answers regarding smoke or drink in some cases. Additionally, we are missing parent background information in some cases. This results an incomplete dataset and can lead to wrong or nonvalid results.
 
 **Gender ambiguity**
 
-One notable result was the presence of gender ambiguity in some patient records. In these cases, the patient's gender is not determined, which poses problems for accurate patient description and analysis. Lack of gender identity may hinder the interpretation of some dermatological conditions because sex-specific factors may influence disease presentation and progression. Eliminating gender ambiguity is essential to improve the clinical relevance and applicability of dermatological research results.
+Again, another lack of information. We are missing information in some patient records. Which is patient’s gender, this causes problems for accurate patient description and analysis. Lack of gender identity will indeed hinder the interpretation some dermatological conditions, because sex-specific factors may influence disease presentation and progression. 
+
+
+
 
 <<<<<<< HEAD
 
