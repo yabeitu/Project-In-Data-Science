@@ -18,7 +18,7 @@ Images within the dataset have a difference in quality, which makes the annotati
 
 **Inconsistency in metadata completion**
 
-Looking at metadata made us realize missing information in some cases. We do not have a complete information this leads to information gaps. For exaple we are missing some answers regarding smoke or drink in some cases. Additionally, we are missing parent background information in some cases. This results an incomplete dataset and can lead to wrong or nonvalid results.
+Looking at metadata made us realize missing information in some cases. We do not have a complete information, which leads to information gaps. For exaple we are missing some answers regarding smoke or drink in some cases. Additionally, we are missing parent background information in some cases. This results an incomplete dataset and can lead to wrong or nonvalid results.
 
 **Gender ambiguity**
 
