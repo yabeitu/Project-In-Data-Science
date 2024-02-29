@@ -11,5 +11,14 @@ Diagnosis for skin cancer involves skin biopsies, while dermatologists typically
 While annotating images of skin lesions, we encountered several obstacles and made some observations. The primary challenge in annotating these images came from the diverse forms and shapes of the skin lesions. Below, we further explain the complications we encountered during the process of annotaiton of the skin lesions.
 
 **Image clarity:** 
-
 Images within the dataset have varying levels of clarity, which affects ease of annotation. Some images show clear and distinguishable lesions, facilitating a simple annotation process. These images provide valuable information about lesion characteristics and facilitate accurate diagnosis. However, a subset of images presents challenges due to subtle and scattered features. Although visible, these features are often blurred and scattered in the surrounding skin, making accurate annotation more difficult. Additionally, some images lack clear lesion delineation, complicating the annotation process and potentially affecting the reliability of diagnostic results.
+
+**Inconsistency in metadata completion:**
+Analysis of the metadata accompanying patient images revealed inconsistencies in data completion. Some patients do not meet all requirements, leading to information gaps. For example, questions regarding cigarette or alcohol use may remain unanswered in some cases, thereby limiting the completeness of the patient record. Additionally, important background information, such as parental history, may be omitted, resulting in incomplete data sets. These inconsistencies highlight the importance of thorough data collection protocols to ensure complete patient records and robust data set integrity.
+
+**Gender ambiguity:**
+One notable result was the presence of gender ambiguity in some patient records. In these cases, the patient's gender is not determined, which poses problems for accurate patient description and analysis. Lack of gender identity may hinder the interpretation of some dermatological conditions because sex-specific factors may influence disease presentation and progression. Eliminating gender ambiguity is essential to improve the clinical relevance and applicability of dermatological research results.
+
+
+https://www.sundhed.dk/borger/patienthaandbogen/kraeft/sygdomme/hud-kraeft/hudkraeft-basalcelle-og-pladeepithelkraeft/
+
