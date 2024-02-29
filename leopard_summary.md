@@ -1,3 +1,5 @@
+**Summary**
+
 The PAD-UFES-20 dataset, collected in collaboration with the Dermatological and Surgical Assistance Program (PAD) at the Federal University of Espírito Santo (UFES-Brazil) in during 2018 and 2019 and there are 50 types of skin lesions that were collected during this period. It comprises 2,298 samples of six distinct types of skin lesions and can be categorized as skin cancer or skin disease: BCC, MEL and SCC are considered to be skin cancers, whereas ACK, NEV and SEK are skin diseases. Each sample includes a clinical image and up to 22 clinical features such as patient age, lesion location, Fitzpatrick skin type, and lesion diameter. The lesions encompass Basal Cell Carcinoma (BCC), Squamous Cell Carcinoma (SCC), Actinic Keratosis (ACK), Seborrheic Keratosis (SEK), Bowen’s disease (BOD), Melanoma (MEL), and Nevus (NEV). Biopsy confirmation is available for BCC, SCC, and MEL, while other diagnoses are clinically determined by dermatologists. Approximately 58% of the dataset is biopsy-proven. The images vary in size due to collection with different smartphone devices, all in .png format. 
 
 Metadata for each lesion comprises up to 26 features, with patient and lesion references for each image/sample. The dataset collection adheres to ethical standards, approved by the university ethics committee and the Brazilian government, ensuring patient consent and privacy protection. This metadata encompasses various factors including previous cancer history, access to water, lesion diameter, and boolean indicators regarding the lesion's characteristics (e.g., does it hurt, does it bleed, etc.). Leveraging this metadata alongside masks and annotations could facilitate assessing whether image recognition results align with specific parameters.
@@ -31,7 +33,16 @@ During the annotation of patient images from the PAD-UFES-20 dataset, an interes
 However, after marking the lesions during annotation, a notable transformation occurs. Edges that were once clear and nuanced become distinctly straight and no longer have the shape or curvature they once had in the raw image. This phenomenon suggests that the act of annotation can unintentionally distort the natural characteristics of the lesion, leading to loss of detail and fidelity of the annotated image.
 
 
-
 https://www.sundhed.dk/borger/patienthaandbogen/kraeft/sygdomme/hud-kraeft/hudkraeft-basalcelle-og-pladeepithelkraeft/
 https://www.sundhed.dk/borger/patienthaandbogen/hud/sygdomme/modermaerker-pigmenteret-udslaet/modermaerkekraeft-malignt-melanom/
+
+With PAD-UFES-20 dataset we can combine dermatology and modern technologies to enhance, provide more accurate and faster diagnosis of skin cancer. This is done by feeding machine learning algorithms the data from the set, so we can train the model to spot skin cancer, which could help detect skin cancer early in. With all the diverse images and information in this dataset, the algorithms can get really good at telling the difference between various skin lesions. The variety of skin conditions covered in the dataset gives these algorithms knowledge as broad as the variance in skin lesions, making them adaptable and efficient. This adaptability is important when making tools for healthcare, since all humand come in different shapes and sizes. Additionally, dealing with obstacles like making sure the pictures are clear, annotation are consistent and precise, will help the algortihm become smarter and more accurate. Not only are the algorithms supporting healthcare workers, but they are also helping the indivual person getting checked out for skin cancer. To sum up, by going beyond combning machine learning technology with dermatology, we can support healthcare systems and make them more efficient, which could minimise the workload for healthcare workers and provide better helpt for patients. 
+
+
+
+
+
+
+
+
 
