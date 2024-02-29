@@ -7,3 +7,12 @@ Deciding on the scope of inclusion was critical to the annotation process. inclu
 Lastly, the software we used was introduced through a quick tutorial, and its first-time application to this task likely contributed to the imprecision and inconsistency of the annotations. The use of a mouse or touchpad, instead of a pen, for annotation also made it more inaccuracies. The level of detail and precision in marking varied significantly from one anotator, affects the overall quality of our data. This led us to deliberate on the extent of the area to be marked and consider the implications for our algorithm.
 
 In conclusion, even after we've really tried our best to accurately mark up these images, it turns out the annotations can still be pretty inconsistent and off the mark. This basically means the data we feed into our algorithm isn't as good as it could be, which might lead to getting the diagnosis wrong.
+
+annotation comments 
+1. Some images could hardly be annotated, unclear and non-specific.
+2. Some marks were subtle and hardly noticeable.
+3. Some images were of such low quality that it led to difficulty in annotating them.
+4. Missing information in metadata that can affect results: in some cases, we do not know the background-father or background-mother or if the patient smokes or drinks. 
+5. In some cases we do not even know if the patient is a male or female.
+
+
