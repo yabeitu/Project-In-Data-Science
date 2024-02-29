@@ -24,4 +24,5 @@ One notable result was the presence of gender ambiguity in some patient records.
 
 
 https://www.sundhed.dk/borger/patienthaandbogen/kraeft/sygdomme/hud-kraeft/hudkraeft-basalcelle-og-pladeepithelkraeft/
+https://www.sundhed.dk/borger/patienthaandbogen/hud/sygdomme/modermaerker-pigmenteret-udslaet/modermaerkekraeft-malignt-melanom/
 
