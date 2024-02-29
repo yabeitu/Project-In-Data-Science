@@ -8,11 +8,12 @@ Lastly, the software LabelStudio, that we used was introduced through a quick tu
 
 In conclusion, even after we've tried our best to accurately mark up these images, it turns out the annotations can still be pretty inconsistent. This basically means the data we feed into our algorithm isn't as good as it could be, which might lead to getting the diagnosis wrong.
 
-annotation comments L3
-1. Some images could hardly be annotated, they were unclear and non-specific.
-2. Some marks were subtle and hardly noticeable.
-3. Some images were of such low quality that it led to difficulty in annotating them.
-4. Missing information in metadata that can affect results: in some cases, we do not know the background-father or background-mother or if the patient smokes or drinks. 
-5. In some cases we do not even know if the patient is a male or female.
-6. There were some small details that couln't annotates
+Annotation comments L3
+•	some images could hardly be annotated, the images were unclear.
+•	Some lesions were subtle and hardly noticeable.
+•	Some images were of such low quality, which led to difficulty in annotating them.
+•	Missing information in metadata that can affect results, in some cases we do not know the background-father or background-mother or if the patient smokes or drinks.
+•	In some cases we do not even know the gender
+•	Small details can not annotates.
+
 
