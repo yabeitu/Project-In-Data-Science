@@ -10,17 +10,23 @@ Diagnosis for skin cancer involves skin biopsies, while dermatologists typically
 
 While annotating images of skin lesions, we encountered several obstacles and made some observations. The primary challenge in annotating these images came from the diverse forms and shapes of the skin lesions. Below, we further explain the complications we encountered during the process of annotaiton of the skin lesions.
 
-**Image clarity:** 
+**Image clarity** 
 
 Images within the dataset have varying levels of clarity, which affects ease of annotation. Some images show clear and distinguishable lesions, facilitating a simple annotation process. These images provide valuable information about lesion characteristics and facilitate accurate diagnosis. However, a subset of images presents challenges due to subtle and scattered features. Although visible, these features are often blurred and scattered in the surrounding skin, making accurate annotation more difficult. Additionally, some images lack clear lesion delineation, complicating the annotation process and potentially affecting the reliability of diagnostic results.
 
-**Inconsistency in metadata completion:**
+**Inconsistency in metadata completion**
 
 Analysis of the metadata accompanying patient images revealed inconsistencies in data completion. Some patients do not meet all requirements, leading to information gaps. For example, questions regarding cigarette or alcohol use may remain unanswered in some cases, thereby limiting the completeness of the patient record. Additionally, important background information, such as parental history, may be omitted, resulting in incomplete data sets. These inconsistencies highlight the importance of thorough data collection protocols to ensure complete patient records and robust data set integrity.
 
-**Gender ambiguity:**
+**Gender ambiguity**
 
 One notable result was the presence of gender ambiguity in some patient records. In these cases, the patient's gender is not determined, which poses problems for accurate patient description and analysis. Lack of gender identity may hinder the interpretation of some dermatological conditions because sex-specific factors may influence disease presentation and progression. Eliminating gender ambiguity is essential to improve the clinical relevance and applicability of dermatological research results.
+
+**Image edge distortion in caption** 
+
+During the annotation of patient images from the PAD-UFES-20 dataset, an interesting observation was made regarding the impact of annotation on image details, especially in marginal lesions. When reviewing raw images, edges appear clear and well-defined, allowing easy identification of lesion boundaries. The edges have natural shapes and curves, reflecting the organic nature of the skin lesion. 
+However, after marking the lesions during annotation, a notable transformation occurs. Edges that were once clear and nuanced become distinctly straight and no longer have the shape or curvature they once had in the raw image. This phenomenon suggests that the act of annotation can unintentionally distort the natural characteristics of the lesion, leading to loss of detail and fidelity of the annotated image.
+
 
 
 https://www.sundhed.dk/borger/patienthaandbogen/kraeft/sygdomme/hud-kraeft/hudkraeft-basalcelle-og-pladeepithelkraeft/

@@ -14,5 +14,6 @@ annotation comments L3
 3. Some images were of such low quality that it led to difficulty in annotating them.
 4. Missing information in metadata that can affect results: in some cases, we do not know the background-father or background-mother or if the patient smokes or drinks. 
 5. In some cases we do not even know if the patient is a male or female.
+6. small details can not annotates
 
 
