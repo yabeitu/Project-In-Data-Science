@@ -8,7 +8,6 @@ Lastly, the software LabelStudio, that we used was introduced through a quick tu
 
 In conclusion, even after we've tried our best to accurately mark up these images, it turns out the annotations can still be pretty inconsistent. This basically means the data we feed into our algorithm isn't as good as it could be, which might lead to getting the diagnosis wrong.
 
-Annotation comments L3
 
 •	some images could hardly be annotated, the images were unclear.
 
