@@ -10,3 +10,6 @@ Diagnosis for skin cancer involves skin biopsies, while dermatologists typically
 
 While annotating images of skin lesions, we encountered several obstacles and made some observations. The primary challenge in annotating these images came from the diverse forms and shapes of the skin lesions. Below, we further explain the complications we encountered during the process of annotaiton of the skin lesions.
 
+**Image clarity:** 
+
+Images within the dataset have varying levels of clarity, which affects ease of annotation. Some images show clear and distinguishable lesions, facilitating a simple annotation process. These images provide valuable information about lesion characteristics and facilitate accurate diagnosis. However, a subset of images presents challenges due to subtle and scattered features. Although visible, these features are often blurred and scattered in the surrounding skin, making accurate annotation more difficult. Additionally, some images lack clear lesion delineation, complicating the annotation process and potentially affecting the reliability of diagnostic results.
