@@ -8,7 +8,7 @@ Lastly, the software we used was introduced through a quick tutorial, and its fi
 
 In conclusion, even after we've really tried our best to accurately mark up these images, it turns out the annotations can still be pretty inconsistent and off the mark. This basically means the data we feed into our algorithm isn't as good as it could be, which might lead to getting the diagnosis wrong.
 
-annotation comments 
+annotation comments L3
 1. Some images could hardly be annotated, unclear and non-specific.
 2. Some marks were subtle and hardly noticeable.
 3. Some images were of such low quality that it led to difficulty in annotating them.
