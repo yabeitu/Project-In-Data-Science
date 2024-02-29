@@ -9,11 +9,11 @@ Lastly, the software we used was introduced through a quick tutorial, and its fi
 In conclusion, even after we've really tried our best to accurately mark up these images, it turns out the annotations can still be pretty inconsistent and off the mark. This basically means the data we feed into our algorithm isn't as good as it could be, which might lead to getting the diagnosis wrong.
 
 annotation comments L3
-1. Some images could hardly be annotated, unclear and non-specific.
+1. Some images could hardly be annotated, they were unclear and non-specific.
 2. Some marks were subtle and hardly noticeable.
 3. Some images were of such low quality that it led to difficulty in annotating them.
 4. Missing information in metadata that can affect results: in some cases, we do not know the background-father or background-mother or if the patient smokes or drinks. 
 5. In some cases we do not even know if the patient is a male or female.
-6. small details can not annotates
+6. There were some small details that couln't annotates
 
 

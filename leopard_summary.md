@@ -12,17 +12,20 @@ While annotating images of skin lesions, we encountered several obstacles and ma
 
 **Image clarity** 
 
-Images within the dataset have varying levels of clarity, which affects ease of annotation. Some images show clear and distinguishable lesions, facilitating a simple annotation process. These images provide valuable information about lesion characteristics and facilitate accurate diagnosis. However, a subset of images presents challenges due to subtle and scattered features. Although visible, these features are often blurred and scattered in the surrounding skin, making accurate annotation more difficult. Additionally, some images lack clear lesion delineation, complicating the annotation process and potentially affecting the reliability of diagnostic results.
+Images within the dataset have a huge difference in quality and clarity, which makes the annotation part more difficult. Some images were very clear, and the lesions were obvious this made the prosses much easier and faster, which leads to a better result, while other images were unclear in a way that the lesions were faded with the skin due to the color match with patients’ skin color, the lesions were faded into the skin and made the annotation part hard and challenging. In some cases, the lesions were very spread and tiny even some images couldn’t be annotated, this will indeed effect the reliability of diagnostic results.
+
 
 **Inconsistency in metadata completion**
 
-Analysis of the metadata accompanying patient images revealed inconsistencies in data completion. Some patients do not meet all requirements, leading to information gaps. For example, questions regarding cigarette or alcohol use may remain unanswered in some cases, thereby limiting the completeness of the patient record. Additionally, important background information, such as parental history, may be omitted, resulting in incomplete data sets. These inconsistencies highlight the importance of thorough data collection protocols to ensure complete patient records and robust data set integrity.
+Looking at the metadata made us realize lack of information and revealed inconsistencies in data completion. We do not have full information for some patients, which leads to information gaps. For example, we do not know parental history for some patients, another example is that we are missing some answers regarding whether the patient smoke or drink. Additionally we are missing answers regarding cancer history for some patients, which results in incomplete data set.
+
 
 **Gender ambiguity**
 
-One notable result was the presence of gender ambiguity in some patient records. In these cases, the patient's gender is not determined, which poses problems for accurate patient description and analysis. Lack of gender identity may hinder the interpretation of some dermatological conditions because sex-specific factors may influence disease presentation and progression. Eliminating gender ambiguity is essential to improve the clinical relevance and applicability of dermatological research results.
+Again, missing information in metadata. This time we are missing some number of patients’ gender. This lack of information would only lead to problems for accurate patient description and analysis and wrong and invalid results. Lack of gender identity may hinder the interpretation of some dermatological conditions because sex-specific factors do indeed influence disease presentation and progression.
 
-**Image edge distortion in caption** 
+
+**Loss of detail** 
 
 During the annotation of patient images from the PAD-UFES-20 dataset, an interesting observation was made regarding the impact of annotation on image details, especially in marginal lesions. When reviewing raw images, edges appear clear and well-defined, allowing easy identification of lesion boundaries. The edges have natural shapes and curves, reflecting the organic nature of the skin lesion. 
 However, after marking the lesions during annotation, a notable transformation occurs. Edges that were once clear and nuanced become distinctly straight and no longer have the shape or curvature they once had in the raw image. This phenomenon suggests that the act of annotation can unintentionally distort the natural characteristics of the lesion, leading to loss of detail and fidelity of the annotated image.
