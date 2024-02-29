@@ -25,31 +25,17 @@ Looking at metadata made us realize missing information in some cases. We do not
 Again, another lack of information. We are missing information in some patient records. Which is patient’s gender, this causes problems for accurate patient description and analysis. Lack of gender identity will indeed hinder the interpretation some dermatological conditions, because sex-specific factors may influence disease presentation and progression. 
 
 
-
-
-
-<<<<<<< HEAD
-
 **Loss of details** 
-=======
-**Image edge distortion in caption** 
->>>>>>> parent of 455ad4e (changes added to annotation comments and summary)
 
 During the annotation of patient images from the PAD-UFES-20 dataset, an interesting observation was made regarding the impact of annotation on image details, especially in marginal lesions. When reviewing raw images, edges appear clear and well-defined, allowing easy identification of lesion boundaries. The edges have natural shapes and curves, reflecting the organic nature of the skin lesion. 
 However, after marking the lesions during annotation, a notable transformation occurs. Edges that were once clear and nuanced become distinctly straight and no longer have the shape or curvature they once had in the raw image. This phenomenon suggests that the act of annotation can unintentionally distort the natural characteristics of the lesion, leading to loss of detail and fidelity of the annotated image.
-
-https://www.sundhed.dk/borger/patienthaandbogen/kraeft/sygdomme/hud-kraeft/hudkraeft-basalcelle-og-pladeepithelkraeft/
-https://www.sundhed.dk/borger/patienthaandbogen/hud/sygdomme/modermaerker-pigmenteret-udslaet/modermaerkekraeft-malignt-melanom/
 
 
 As a viable pathway for improving the diagnosis of skin cancer, the PAD-UFES-20 dataset emerges as a catalyst for the fusion of dermatology and contemporary technologies. A possible advance in early diagnosis is presented by the use of this dataset to train machine learning algorithms to identify skin cancer. The variety of photos and data in the dataset gives these algorithms a deep comprehension of different types of skin lesions, which promotes flexibility and effectiveness that are essential for handling each person's distinct characteristics. Considering the inherent variability in human shapes and sizes, this versatility proved invaluable in the healthcare industry. The algorithm's intelligence is increased by overcoming obstacles like guaranteeing image clarity and accurate annotations, which makes it a useful tool for healthcare professionals. Beyond aiding experts, these algorithms enable people requesting assessments for skin cancer, promoting a pro-active approach to healthcare.To put it briefly, machine learning in dermatology streamlines diagnostic processes and relieves the workload of medical personnel. In order to better help patients in their quest for prompt diagnosis and treatment of skin cancer, technology and healthcare professionals are working together to improve the efficacy of diagnostic instruments. A new age of accuracy and efficiency in the diagnosis of skin cancer has been ushered in by the collaboration of dermatology and machine learning.
 
 
-
-
-
-
-
+https://www.sundhed.dk/borger/patienthaandbogen/kraeft/sygdomme/hud-kraeft/hudkraeft-basalcelle-og-pladeepithelkraeft/
+https://www.sundhed.dk/borger/patienthaandbogen/hud/sygdomme/modermaerker-pigmenteret-udslaet/modermaerkekraeft-malignt-melanom/
 
 
 
