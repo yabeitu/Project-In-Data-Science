@@ -27,7 +27,7 @@ Looking at the metadata made us realize lack of information and revealed inconsi
 Again, missing information in metadata. This time we are missing some number of patients’ gender. This lack of information would only lead to problems for accurate patient description and analysis and wrong and invalid results. Lack of gender identity may hinder the interpretation of some dermatological conditions because sex-specific factors do indeed influence disease presentation and progression.
 
 
-**Loss of detail** 
+**Loss of details** 
 
 During the annotation of patient images from the PAD-UFES-20 dataset, an interesting observation was made regarding the impact of annotation on image details, especially in marginal lesions. When reviewing raw images, edges appear clear and well-defined, allowing easy identification of lesion boundaries. The edges have natural shapes and curves, reflecting the organic nature of the skin lesion. 
 However, after marking the lesions during annotation, a notable transformation occurs. Edges that were once clear and nuanced become distinctly straight and no longer have the shape or curvature they once had in the raw image. This phenomenon suggests that the act of annotation can unintentionally distort the natural characteristics of the lesion, leading to loss of detail and fidelity of the annotated image.
