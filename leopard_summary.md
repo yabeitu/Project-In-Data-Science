@@ -24,6 +24,8 @@ Looking at metadata made us realize missing information in some cases. We do not
 
 Again, another lack of information. We are missing information in some patient records. Which is patient’s gender, this causes problems for accurate patient description and analysis. Lack of gender identity will indeed hinder the interpretation some dermatological conditions, because sex-specific factors may influence disease presentation and progression. 
 
+https://www.sundhed.dk/borger/patienthaandbogen/kraeft/sygdomme/hud-kraeft/hudkraeft-basalcelle-og-pladeepithelkraeft/
+https://www.sundhed.dk/borger/patienthaandbogen/hud/sygdomme/modermaerker-pigmenteret-udslaet/modermaerkekraeft-malignt-melanom/
 
 
 
@@ -37,9 +39,6 @@ Again, another lack of information. We are missing information in some patient r
 During the annotation of patient images from the PAD-UFES-20 dataset, an interesting observation was made regarding the impact of annotation on image details, especially in marginal lesions. When reviewing raw images, edges appear clear and well-defined, allowing easy identification of lesion boundaries. The edges have natural shapes and curves, reflecting the organic nature of the skin lesion. 
 However, after marking the lesions during annotation, a notable transformation occurs. Edges that were once clear and nuanced become distinctly straight and no longer have the shape or curvature they once had in the raw image. This phenomenon suggests that the act of annotation can unintentionally distort the natural characteristics of the lesion, leading to loss of detail and fidelity of the annotated image.
 
-
-https://www.sundhed.dk/borger/patienthaandbogen/kraeft/sygdomme/hud-kraeft/hudkraeft-basalcelle-og-pladeepithelkraeft/
-https://www.sundhed.dk/borger/patienthaandbogen/hud/sygdomme/modermaerker-pigmenteret-udslaet/modermaerkekraeft-malignt-melanom/
 
 With PAD-UFES-20 dataset we can combine dermatology and modern technologies to enhance, provide more accurate and faster diagnosis of skin cancer. This is done by feeding machine learning algorithms the data from the set, so we can train the model to spot skin cancer, which could help detect skin cancer early in. With all the diverse images and information in this dataset, the algorithms can get really good at telling the difference between various skin lesions. The variety of skin conditions covered in the dataset gives these algorithms knowledge as broad as the variance in skin lesions, making them adaptable and efficient. This adaptability is important when making tools for healthcare, since all humand come in different shapes and sizes. Additionally, dealing with obstacles like making sure the pictures are clear, annotation are consistent and precise, will help the algortihm become smarter and more accurate. Not only are the algorithms supporting healthcare workers, but they are also helping the indivual person getting checked out for skin cancer. To sum up, by going beyond combning machine learning technology with dermatology, we can support healthcare systems and make them more efficient, which could minimise the workload for healthcare workers and provide better helpt for patients. 
 
